@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: 3.10.7
       - name: Setup a virtual environment
-        run:
+        run: |
           python3 -m venv env
           . env/bin/activate
       - name: Install dependencies
